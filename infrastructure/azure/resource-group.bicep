@@ -38,7 +38,7 @@ resource webApp 'Microsoft.Web/sites@2021-01-15' = {
       ]
       alwaysOn: false
       http20Enabled: true
-      linuxFxVersion: 'DOTNETCORE|6.0'
+      linuxFxVersion: 'DOTNET|6.0'
     }
   }
 }
