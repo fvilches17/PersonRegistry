@@ -36,11 +36,6 @@ jobs:
         uses: Azure/login@v1
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
-         
-      - name: Delete RG Temp
-        uses: Azure/cli@1.0.4
-        with:
-          inlineScript: az group delete -n ${{ env.AZURE_RESOURCEGROUP_NAME }} --yes
        
       - name: Ensure Azure Resource Group Created
         uses: Azure/cli@1.0.4
