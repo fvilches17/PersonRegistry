@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31521.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{09FA2B6C-A572-4808-8650-666422512CA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8DCB3A83-0B76-4651-9ACA-F55F4970D042}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7C705BFB-7097-478E-AFF2-5E4CF08E0954}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonRegistry.WebApp", "src\PersonRegistry.WebApp\PersonRegistry.WebApp.csproj", "{E0F30AE3-E1C5-476A-921F-D5A1CD0F9BD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0F30AE3-E1C5-476A-921F-D5A1CD0F9BD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0F30AE3-E1C5-476A-921F-D5A1CD0F9BD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0F30AE3-E1C5-476A-921F-D5A1CD0F9BD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0F30AE3-E1C5-476A-921F-D5A1CD0F9BD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E0F30AE3-E1C5-476A-921F-D5A1CD0F9BD6} = {09FA2B6C-A572-4808-8650-666422512CA0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F80D642C-A882-42F1-A2B9-3BEB7A678710}
+	EndGlobalSection
+EndGlobal
