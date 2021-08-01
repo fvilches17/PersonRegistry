@@ -17,6 +17,7 @@ resource appServicePlan 'Microsoft.Web/serverfarms@2021-01-15' = {
     name: 'F1'
   }
   properties: {
+    reserved: true
     targetWorkerSizeId: 0
     targetWorkerCount: 1
   }
